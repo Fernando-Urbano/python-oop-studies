@@ -1,5 +1,5 @@
 # Python Learning
-#### More than 80 python scripts on OOP, basic python and external modules!
+#### More than 80 python scripts and explanations in portuguese on OOP, basic python and external modules!
 Arquives order:
 
 1. Split, Join and Enumerate - split_join_and_enumerate.py
