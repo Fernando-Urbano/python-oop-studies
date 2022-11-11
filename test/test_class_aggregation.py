@@ -7,16 +7,16 @@ import os
 import sys
 import pickle
 
-import ../class_aggregation
+from ../class_aggregation import CarrinhoDeCompras, Produto
 
-carrinho_rian = class_aggregation.CarrinhoDeCompras()
+carrinho_rian = CarrinhoDeCompras()
 
 # Produtos no Supermercado ----
-maca = class_aggregation.Produto("Maça", 4)
-banana = class_aggregation.Produto("Banana", 3.5)
-assert type(banana) == class_aggregation.Produto, "Banana não é um produto."
-pera = class_aggregation.Produto("Pera", 6)
-carne = class_aggregation.Produto("Carne", 12)
+maca = Produto("Maça", 4)
+banana = Produto("Banana", 3.5)
+assert type(banana) == Produto, "Banana não é um produto."
+pera = Produto("Pera", 6)
+carne = Produto("Carne", 12)
 
 # Valor a Pagar ----
 print(carrinho_rian.soma_total())
