@@ -6,9 +6,8 @@ Classe carrinhos e produtos são importada usando import
 import os
 import sys
 import pickle
-# os.chdir("/Users/bi003761/Desktop/challenge_asq")
 
-import class_aggregation
+import ../class_aggregation
 
 carrinho_rian = class_aggregation.CarrinhoDeCompras()
 
