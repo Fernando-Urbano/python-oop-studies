@@ -5,6 +5,7 @@ Classe carrinhos e produtos são importada usando import
 """
 import os
 import sys
+import pickle
 # os.chdir("/Users/bi003761/Desktop/challenge_asq")
 
 import class_aggregation
@@ -34,3 +35,7 @@ print(carrinho_rian.lista_produtos())
 
 # Valor a Pagar ----
 print(carrinho_rian.soma_total())
+
+output = open('carrinho_rian.pkl', 'wb')
+pickle.dump(carrinho_rian, output)
+
